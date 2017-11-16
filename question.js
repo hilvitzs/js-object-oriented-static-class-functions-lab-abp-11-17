@@ -2,7 +2,7 @@
 
 class Question {
   constructor(string) {
-    this.string = string;
+    this.content = string;
     this.save();
   }
 
