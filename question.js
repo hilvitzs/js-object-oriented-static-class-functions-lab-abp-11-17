@@ -6,4 +6,4 @@ class Question {
   }
 }
 
-User.All
+User._All = [];
