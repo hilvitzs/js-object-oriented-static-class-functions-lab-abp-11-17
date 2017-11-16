@@ -5,5 +5,7 @@ class Question {
     this.save();
   }
 
-  
+  save() {
+    this._All
+  }
 }
