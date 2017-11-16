@@ -17,7 +17,6 @@ class Question {
   static Find() {
     return this.All().filter(function(question) {
       console.log(question)
-      }
     })
   }
 }
