@@ -9,7 +9,7 @@ class Question {
     this.constructor._All.push(this)
   }
 
-  static ._All(){
-    
+  static All(){
+
   }
 }
