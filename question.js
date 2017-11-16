@@ -15,7 +15,7 @@ class Question {
   }
 
   static Find(index) {
-    console.log(this.All()[index + 1])
+    console.log(this.All()[index - 1])
   }
 }
 
