@@ -2,7 +2,7 @@
 
 class Question {
   constructor() {
-
+    
   }
 
   static All() {
