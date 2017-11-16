@@ -6,7 +6,6 @@ class Question {
   }
 
   save() {
-    console.log(this.constructor)
     return this.constructor._All.push(this);
   }
 
