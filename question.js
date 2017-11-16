@@ -2,7 +2,11 @@
 
 class Question {
   constructor() {
-    
+    this.save();
+  }
+
+  save() {
+    return this.constructor._All.push(this);
   }
 
   static All() {
