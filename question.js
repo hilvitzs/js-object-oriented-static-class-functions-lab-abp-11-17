@@ -16,7 +16,9 @@ class Question {
 
   static Find() {
     return this.All().filter(function(question) {
-      return question
+      if(question === question) {
+        return this.All().indexOf(question)
+      }
     })
   }
 }
