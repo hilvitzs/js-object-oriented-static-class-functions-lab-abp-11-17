@@ -16,3 +16,4 @@ class Question {
 }
 
 // Question._All = [];
+var question = new Question('something')
