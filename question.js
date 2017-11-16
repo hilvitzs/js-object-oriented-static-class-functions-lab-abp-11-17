@@ -6,6 +6,6 @@ class Question {
   }
 
   save() {
-    this._All
+    this.constructor._All.push(this)
   }
 }
