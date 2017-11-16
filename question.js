@@ -14,8 +14,8 @@ class Question {
     return this._All;
   }
 
-  static Find() {
-     console.log(this.All())
+  static Find(index) {
+     return this.All()[index]
   }
 }
 
