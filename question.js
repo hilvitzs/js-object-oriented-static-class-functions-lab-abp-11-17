@@ -13,6 +13,10 @@ class Question {
   static All() {
     return this._All;
   }
+
+  static Find() {
+    
+  }
 }
 
 Question._All = [];
