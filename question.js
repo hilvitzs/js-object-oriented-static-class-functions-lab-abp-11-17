@@ -15,7 +15,7 @@ class Question {
   }
 
   static Find() {
-    return this.All()
+     console.log(this.All())
   }
 }
 
