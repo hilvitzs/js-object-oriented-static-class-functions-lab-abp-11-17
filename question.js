@@ -17,3 +17,4 @@ class Question {
 
 // Question._All = [];
 var question = new Question('something')
+console.log(question)
