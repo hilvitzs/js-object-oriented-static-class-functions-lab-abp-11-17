@@ -2,6 +2,8 @@
 
 class Question {
   constructor() {
-    
+
   }
+
+  
 }
