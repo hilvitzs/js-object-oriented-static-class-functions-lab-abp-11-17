@@ -3,18 +3,16 @@
 class Question {
   constructor(question) {
     this.question = question;
-    // this.save();
+    this.save();
   }
 
-  // save() {
-  //   return this.constructor._All.push(this);
-  // }
+  save() {
+    return this.constructor._All.push(this);
+  }
 
-  // static All() {
-  //   return this._All;
-  // }
+  static All() {
+    return this._All;
+  }
 }
 
-// Question._All = [];
-var question = new Question("What's your favorite food?")
-console.log(question)
+Question._All = [];
