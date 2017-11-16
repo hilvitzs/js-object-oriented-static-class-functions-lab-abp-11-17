@@ -16,5 +16,5 @@ class Question {
 }
 
 // Question._All = [];
-var question = new Question('something')
+var question = new Question("What's your favorite food?")
 console.log(question)
