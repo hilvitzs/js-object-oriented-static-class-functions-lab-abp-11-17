@@ -13,3 +13,5 @@ class Question {
     return this._All();
   }
 }
+
+User._All = [];
