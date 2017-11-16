@@ -2,16 +2,8 @@
 
 class Question {
   constructor() {
-    this.save();
+    this._All = [];
   }
 
-  save() {
-    this.constructor._All.push(this)
-  }
 
-  static All(){
-    return this._All();
-  }
 }
-
-User._All = [];
